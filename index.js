@@ -32,7 +32,6 @@ window.onload = function(){
                 Img_row_arr.push(Math.floor(0.299*R + 0.587*G + 0.114*B));
             }
         }
-        console.log(pixel_matrix)
             
         for (let i=0; i<pixel_matrix.length; i++) {
             for (let j=0; j<pixel_matrix[i].length; j++) {
